@@ -1,0 +1,125 @@
+2025-02-20 05:14:03,972 INFO    MainThread:41859 [internal.py:wandb_internal():93] W&B internal server running at pid: 41859, started at: 2025-02-20 05:14:03.971914
+2025-02-20 05:14:03,974 INFO    WriterThread:41859 [datastore.py:open_for_write():75] open: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/run-cm7uym67.wandb
+2025-02-20 05:14:03,976 DEBUG   SenderThread:41859 [sender.py:send():236] send: header
+2025-02-20 05:14:03,976 DEBUG   SenderThread:41859 [sender.py:send():236] send: run
+2025-02-20 05:14:04,105 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: check_version
+2025-02-20 05:14:04,107 INFO    SenderThread:41859 [dir_watcher.py:__init__():216] watching files in: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files
+2025-02-20 05:14:04,107 INFO    SenderThread:41859 [sender.py:_start_run_threads():818] run started: cm7uym67 with start time 1740028443
+2025-02-20 05:14:04,107 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:04,108 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:04,108 DEBUG   SenderThread:41859 [sender.py:send_request():250] send_request: check_version
+2025-02-20 05:14:04,148 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: run_start
+2025-02-20 05:14:04,160 DEBUG   HandlerThread:41859 [meta.py:__init__():35] meta init
+2025-02-20 05:14:04,160 DEBUG   HandlerThread:41859 [meta.py:__init__():49] meta init done
+2025-02-20 05:14:04,160 DEBUG   HandlerThread:41859 [meta.py:probe():209] probe
+2025-02-20 05:14:04,175 DEBUG   HandlerThread:41859 [meta.py:_setup_git():199] setup git
+2025-02-20 05:14:04,192 DEBUG   HandlerThread:41859 [meta.py:_setup_git():206] setup git done
+2025-02-20 05:14:04,192 DEBUG   HandlerThread:41859 [meta.py:_save_pip():53] save pip
+2025-02-20 05:14:04,192 DEBUG   HandlerThread:41859 [meta.py:_save_pip():67] save pip done
+2025-02-20 05:14:04,193 DEBUG   HandlerThread:41859 [meta.py:_save_conda():74] save conda
+2025-02-20 05:14:05,109 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_created():269] file/dir created: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/requirements.txt
+2025-02-20 05:14:05,109 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_created():269] file/dir created: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/conda-environment.yaml
+2025-02-20 05:14:05,109 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_created():269] file/dir created: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:06,009 DEBUG   HandlerThread:41859 [meta.py:_save_conda():84] save conda done
+2025-02-20 05:14:06,009 DEBUG   HandlerThread:41859 [meta.py:probe():247] probe done
+2025-02-20 05:14:06,014 DEBUG   SenderThread:41859 [sender.py:send():236] send: files
+2025-02-20 05:14:06,015 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2025-02-20 05:14:06,023 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: stop_status
+2025-02-20 05:14:06,023 DEBUG   SenderThread:41859 [sender.py:send_request():250] send_request: stop_status
+2025-02-20 05:14:06,109 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/conda-environment.yaml
+2025-02-20 05:14:06,110 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_created():269] file/dir created: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-metadata.json
+2025-02-20 05:14:06,110 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_created():269] file/dir created: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/output.log
+2025-02-20 05:14:06,141 DEBUG   SenderThread:41859 [sender.py:send():236] send: telemetry
+2025-02-20 05:14:06,354 INFO    Thread-11 :41859 [upload_job.py:push():138] Uploaded file /tmp/tmp7x46qlhrwandb/c6x0exgf-wandb-metadata.json
+2025-02-20 05:14:08,109 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/output.log
+2025-02-20 05:14:08,578 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:08,580 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:08,580 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:08,582 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:09,109 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:09,401 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:09,401 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:09,402 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:09,403 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:09,947 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:09,948 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:09,948 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:09,949 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:10,109 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:10,110 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/output.log
+2025-02-20 05:14:10,931 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:10,931 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:10,932 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:10,934 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:11,110 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:11,576 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:11,577 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:11,577 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:11,578 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:12,110 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:12,111 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/output.log
+2025-02-20 05:14:12,422 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:12,423 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:12,423 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:12,424 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:13,111 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:13,417 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:13,418 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:13,418 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:13,420 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:14,043 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:14,043 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:14,043 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:14,044 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:14,111 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:14,111 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/output.log
+2025-02-20 05:14:15,056 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:15,057 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:15,057 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:15,058 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:15,111 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:15,716 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:15,716 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:15,717 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:15,719 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:16,112 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:16,112 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/output.log
+2025-02-20 05:14:16,208 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:16,208 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:16,209 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:16,209 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:17,112 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:17,223 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:17,223 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:17,224 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:17,224 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:17,883 DEBUG   HandlerThread:41859 [handler.py:handle_request():140] handle_request: partial_history
+2025-02-20 05:14:17,884 DEBUG   SenderThread:41859 [sender.py:send():236] send: history
+2025-02-20 05:14:17,884 DEBUG   SenderThread:41859 [sender.py:send():236] send: summary
+2025-02-20 05:14:17,887 INFO    SenderThread:41859 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2025-02-20 05:14:18,112 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:18,112 INFO    Thread-7  :41859 [dir_watcher.py:_on_file_modified():286] file/dir modified: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/output.log
+2025-02-20 05:14:18,818 WARNING MainThread:41859 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2025-02-20 05:14:18,819 DEBUG   SenderThread:41859 [sender.py:send():236] send: telemetry
+2025-02-20 05:14:18,820 DEBUG   SenderThread:41859 [sender.py:send():236] send: telemetry
+2025-02-20 05:14:20,009 WARNING MainThread:41859 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2025-02-20 05:14:20,010 ERROR   MainThread:41859 [internal.py:wandb_internal():156] Internal process interrupted.
+2025-02-20 05:14:20,821 INFO    WriterThread:41859 [datastore.py:close():279] close: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/run-cm7uym67.wandb
+2025-02-20 05:14:20,821 INFO    SenderThread:41859 [sender.py:finish():1114] shutting down sender
+2025-02-20 05:14:20,821 INFO    SenderThread:41859 [dir_watcher.py:finish():353] shutting down directory watcher
+2025-02-20 05:14:20,822 INFO    HandlerThread:41859 [handler.py:finish():806] shutting down handler
+2025-02-20 05:14:21,114 INFO    SenderThread:41859 [dir_watcher.py:finish():383] scan: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files
+2025-02-20 05:14:21,114 INFO    SenderThread:41859 [dir_watcher.py:finish():397] scan save: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json wandb-summary.json
+2025-02-20 05:14:21,114 INFO    SenderThread:41859 [dir_watcher.py:finish():397] scan save: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-metadata.json wandb-metadata.json
+2025-02-20 05:14:21,117 INFO    SenderThread:41859 [dir_watcher.py:finish():397] scan save: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/output.log output.log
+2025-02-20 05:14:21,118 INFO    SenderThread:41859 [dir_watcher.py:finish():397] scan save: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/requirements.txt requirements.txt
+2025-02-20 05:14:21,121 INFO    SenderThread:41859 [dir_watcher.py:finish():397] scan save: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/conda-environment.yaml conda-environment.yaml
+2025-02-20 05:14:21,121 INFO    SenderThread:41859 [dir_watcher.py:finish():397] scan save: /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/config.yaml config.yaml
+2025-02-20 05:14:21,122 INFO    SenderThread:41859 [file_pusher.py:finish():171] shutting down file pusher
+2025-02-20 05:14:21,125 INFO    SenderThread:41859 [file_pusher.py:join():176] waiting for file pusher
+2025-02-20 05:14:21,347 INFO    Thread-15 :41859 [upload_job.py:push():138] Uploaded file /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/conda-environment.yaml
+2025-02-20 05:14:21,350 INFO    Thread-14 :41859 [upload_job.py:push():138] Uploaded file /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/requirements.txt
+2025-02-20 05:14:21,411 INFO    Thread-13 :41859 [upload_job.py:push():138] Uploaded file /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/output.log
+2025-02-20 05:14:21,413 INFO    Thread-12 :41859 [upload_job.py:push():138] Uploaded file /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/wandb-summary.json
+2025-02-20 05:14:21,440 INFO    Thread-16 :41859 [upload_job.py:push():138] Uploaded file /home/ubuntu/EXID_code/wandb/run-20250220_051403-cm7uym67/files/config.yaml
+2025-02-20 05:14:22,178 INFO    MainThread:41859 [internal.py:handle_exit():80] Internal process exited

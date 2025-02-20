@@ -1,0 +1,13 @@
+
+------10000-------Experience(state=array([-0.5827179,  0.       ], dtype=float32), action=array([1], dtype=uint8), reward=array([-1.]), next_state=array([-5.8227682e-01,  4.4107257e-04], dtype=float32), done=array([ True]))
+Episode: 1 | Reward: -195.0 | Q Loss: 0.019399214535951614 | Steps: 195
+Episode: 2 | Reward: -170.0 | Q Loss: 0.007938837632536888 | Steps: 365
+Episode: 3 | Reward: -114.0 | Q Loss: 0.008924459107220173 | Steps: 479
+Episode: 4 | Reward: -200.0 | Q Loss: 0.00639731390401721 | Steps: 679
+Episode: 5 | Reward: -136.0 | Q Loss: 0.13686999678611755 | Steps: 815
+Episode: 6 | Reward: -173.0 | Q Loss: 0.20744413137435913 | Steps: 988
+Episode: 7 | Reward: -200.0 | Q Loss: 0.00817372091114521 | Steps: 1188
+Episode: 8 | Reward: -130.0 | Q Loss: 0.4094942808151245 | Steps: 1318
+Episode: 9 | Reward: -200.0 | Q Loss: 0.12954115867614746 | Steps: 1518
+Episode: 10 | Reward: -134.0 | Q Loss: 0.06047770380973816 | Steps: 1652
+Episode: 11 | Reward: -101.0 | Q Loss: 0.06523843109607697 | Steps: 1753

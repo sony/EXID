@@ -1,0 +1,1 @@
+{"Reward": -121.0, "Average10": -126.9, "Steps": 2347, "Q Loss": 0.6558507680892944, "CQL Loss": 0.10589553415775299, "Bellmann error": 0.5498168468475342, "Epsilon": 0.767647, "Episode": 17, "Buffer size": 10000, "Rule Loss": 0.00027680816128849983, "OOD Loss": 0, "_timestamp": 1740028387, "_runtime": 67, "_step": 16}

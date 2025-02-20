@@ -1,0 +1,91 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.7.0
+    start_time: 1740028320
+    t:
+      1:
+      - 1
+      - 55
+      3:
+      - 13
+      - 16
+      4: 3.7.0
+      5: 0.12.21
+      8:
+      - 5
+algo_type:
+  desc: null
+  value: CQL
+buffer_size:
+  desc: null
+  value: 100000
+data_file:
+  desc: null
+  value: data/Mountain_car_expertRun3.pkl
+data_percent:
+  desc: null
+  value: 0.1
+data_type:
+  desc: null
+  value: er
+env:
+  desc: null
+  value: MountainCar-v0
+episodes:
+  desc: null
+  value: 300
+eps_frames:
+  desc: null
+  value: 10000
+lam:
+  desc: null
+  value: 0.5
+log_video:
+  desc: null
+  value: 0
+lr:
+  desc: null
+  value: 0.0001
+min_eps:
+  desc: null
+  value: 0.01
+run_name:
+  desc: null
+  value: CQL-MountainCar-v00.1
+save_every:
+  desc: null
+  value: 100
+seed:
+  desc: null
+  value: 1
+teacher_update:
+  desc: null
+  value: 15
+threshold:
+  desc: null
+  value: -110
+tlr:
+  desc: null
+  value: 1.0e-06
+use_heur:
+  desc: null
+  value: true
+use_ood:
+  desc: null
+  value: false
+use_teach:
+  desc: null
+  value: true
+use_wandb:
+  desc: null
+  value: true
+warm_start:
+  desc: null
+  value: 30

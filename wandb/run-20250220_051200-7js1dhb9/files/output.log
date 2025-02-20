@@ -1,0 +1,20 @@
+
+------10000-------Experience(state=array([-0.5827179,  0.       ], dtype=float32), action=array([1], dtype=uint8), reward=array([-1.]), next_state=array([-5.8227682e-01,  4.4107257e-04], dtype=float32), done=array([ True]))
+/home/ubuntu/EXID_code/prolonet.py:72: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at ../torch/csrc/utils/tensor_new.cpp:230.)
+  new_comps = torch.tensor(comparators, dtype=torch.float).to(self.device)
+Episode: 1 | Reward: -200.0 | Q Loss: 0.11669059842824936 | Steps: 200
+Episode: 2 | Reward: -143.0 | Q Loss: 0.1411672830581665 | Steps: 343
+Episode: 3 | Reward: -111.0 | Q Loss: 0.12421626597642899 | Steps: 454
+Episode: 4 | Reward: -140.0 | Q Loss: 0.19006338715553284 | Steps: 594
+Episode: 5 | Reward: -185.0 | Q Loss: 0.14235836267471313 | Steps: 779
+Episode: 6 | Reward: -111.0 | Q Loss: 0.11519303172826767 | Steps: 890
+Episode: 7 | Reward: -188.0 | Q Loss: 0.14469340443611145 | Steps: 1078
+Episode: 8 | Reward: -116.0 | Q Loss: 0.11550159007310867 | Steps: 1194
+Episode: 9 | Reward: -136.0 | Q Loss: 0.12198688834905624 | Steps: 1330
+Episode: 10 | Reward: -112.0 | Q Loss: 0.4934307336807251 | Steps: 1442
+Episode: 11 | Reward: -146.0 | Q Loss: 0.5218733549118042 | Steps: 1588
+Episode: 12 | Reward: -118.0 | Q Loss: 0.697790801525116 | Steps: 1706
+Episode: 13 | Reward: -123.0 | Q Loss: 0.1233956515789032 | Steps: 1829
+Episode: 14 | Reward: -161.0 | Q Loss: 0.11070254445075989 | Steps: 1990
+Episode: 15 | Reward: -118.0 | Q Loss: 0.20303727686405182 | Steps: 2108
+Episode: 16 | Reward: -118.0 | Q Loss: 0.7240764498710632 | Steps: 2226
