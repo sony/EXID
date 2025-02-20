@@ -1,6 +1,7 @@
 # Enhancing Generalization of Offline RL in Data-Limited Settings with Heuristic Rules
 
 Official implementation of Enhancing Generalization of Offline RL in Data-Limited Settings with Heuristic Rules (Accepted in IEEE TRANSACTIONS ON ARTIFICIAL INTELLIGENCE 2025)
+
 Authors : Briti Gangoppadhyay, Wang Zhao, Jia-Fong Yeh, and Shingo Takamatsu
 
 ## System Requirements
